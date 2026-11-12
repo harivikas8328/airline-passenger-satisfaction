@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://airline-passenger-satisfaction-1-aklg.onrender.com"
 
 st.set_page_config(page_title="Quick Passenger Predictor", layout="centered")
 st.title("✈️ Quick Passenger Predictor")

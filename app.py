@@ -1,7 +1,10 @@
 import streamlit as st
 import requests
 
-API_URL = "https://airline-passenger-satisfaction-1-aklg.onrender.com"
+API_URL = "https://airline-passenger-satisfaction-1-aklg.onrender.com/predict"
+
+response = requests.post(API_URL, json=input_data)
+response.raise_for_status()
 
 st.set_page_config(page_title="Quick Passenger Predictor", layout="centered")
 st.title("✈️ Quick Passenger Predictor")

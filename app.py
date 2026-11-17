@@ -4,7 +4,7 @@ import requests
 
 st.set_page_config(page_title="Quick Passenger Predictor", layout="centered")
 
-API_URL = "https://airline-passenger-satisfaction-2.onrender.com"
+API_URL = "https://airline-passenger-satisfaction-2.onrender.com/predict"
 # API_URL="http://127.0.0.1:8000/predict"
 st.title("✈️ Quick Passenger Predictor")
 st.write("A lightweight model using the top 8 predictive features.")
